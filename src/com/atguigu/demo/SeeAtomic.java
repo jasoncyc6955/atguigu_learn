@@ -6,6 +6,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  *
  * @author cyc
  * @Description volatile 不能保证原子性证明 && 如何不用synchronized 解决原子性问题
+ * 利用java.util.concurrent.atomic实现原子性
  */
 public class SeeAtomic {
 
@@ -34,6 +35,9 @@ class MyData1{
 
     volatile int number = 0;
 
+    //利用volatile 和synchronized实现原子性，但是synchronized太笨重，不建议使用
+    //volatile 保证可见性，及通知其他线程=》主物理内存的值已经被修改
+    //synchronized 表示锁定方法，避免一个线程未操作完成时，被另外一个线程调用
     synchronized void addPlusPlus(){
         this.number++;
     }
