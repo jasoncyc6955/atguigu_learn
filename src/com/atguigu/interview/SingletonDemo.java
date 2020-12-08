@@ -1,4 +1,4 @@
-package com.atguigu.demo;
+package com.atguigu.interview;
 
 /**
  * 多线程下的单例模式
