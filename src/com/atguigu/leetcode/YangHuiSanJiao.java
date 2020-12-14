@@ -1,4 +1,4 @@
-package com.atguigu.test;
+package com.atguigu.leetcode;
 
 import java.util.ArrayList;
 import java.util.Arrays;
