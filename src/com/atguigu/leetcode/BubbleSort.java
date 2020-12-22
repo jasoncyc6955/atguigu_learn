@@ -1,7 +1,11 @@
-package com.atguigu.test;
+package com.atguigu.leetcode;
 
 /**
  * 冒泡排序
+ * 类似先1、2位比较，取最大值，再与第三个比较，再取最大值...第一轮是比较出最大值
+ * 第二轮比较出第二大值
+ * ...
+ * 最后一轮取得倒数第二大值和最小值
  */
 public class BubbleSort {
 

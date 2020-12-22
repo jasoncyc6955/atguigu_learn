@@ -2,7 +2,7 @@ package com.atguigu.interview;
 
 import java.util.*;
 
-public class ContainerNotSaftDemo {
+public class ContainerNotSafeDemo {
 
 
     public static void main(String[] args) {
